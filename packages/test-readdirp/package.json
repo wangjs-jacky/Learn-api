@@ -1,0 +1,16 @@
+{
+  "name": "test-readdirp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:unit": "vitest run",
+    "test:force": "vitest run -u"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "readdirp": "^3.6.0"
+  }
+}
