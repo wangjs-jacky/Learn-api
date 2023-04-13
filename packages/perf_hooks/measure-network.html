@@ -14,8 +14,7 @@
 <script>
   const observer = new PerformanceObserver((list) => {
     const entries = list.getEntries();
-    console.log(entries);
-    debugger;
+    console.log("资源下载用时：", entries[0].duration);
   });
 
   observer.observe({ entryTypes: ["resource"] });
